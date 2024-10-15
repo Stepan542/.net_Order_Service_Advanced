@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\makar\\Desktop\\OrderServiceAPI(main)\\OrderServiceAPI-mainApiProject\\OrderServiceAPI\\OrderServiceAppAPI\\OrderServiceAppAPI.csproj": {}
+    "C:\\Users\\makar\\Desktop\\OrderServiceAPI(main, Rabbit)\\OrderServiceAPI-mainApiProject\\OrderServiceAPI\\OrderServiceAppAPI\\OrderServiceAppAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\makar\\Desktop\\OrderServiceAPI(main)\\OrderServiceAPI-mainApiProject\\OrderServiceAPI\\OrderServiceAppAPI\\OrderServiceAppAPI.csproj": {
+    "C:\\Users\\makar\\Desktop\\OrderServiceAPI(main, Rabbit)\\OrderServiceAPI-mainApiProject\\OrderServiceAPI\\OrderServiceAppAPI\\OrderServiceAppAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\makar\\Desktop\\OrderServiceAPI(main)\\OrderServiceAPI-mainApiProject\\OrderServiceAPI\\OrderServiceAppAPI\\OrderServiceAppAPI.csproj",
+        "projectUniqueName": "C:\\Users\\makar\\Desktop\\OrderServiceAPI(main, Rabbit)\\OrderServiceAPI-mainApiProject\\OrderServiceAPI\\OrderServiceAppAPI\\OrderServiceAppAPI.csproj",
         "projectName": "OrderServiceAppAPI",
-        "projectPath": "C:\\Users\\makar\\Desktop\\OrderServiceAPI(main)\\OrderServiceAPI-mainApiProject\\OrderServiceAPI\\OrderServiceAppAPI\\OrderServiceAppAPI.csproj",
+        "projectPath": "C:\\Users\\makar\\Desktop\\OrderServiceAPI(main, Rabbit)\\OrderServiceAPI-mainApiProject\\OrderServiceAPI\\OrderServiceAppAPI\\OrderServiceAppAPI.csproj",
         "packagesPath": "C:\\Users\\makar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\makar\\Desktop\\OrderServiceAPI(main)\\OrderServiceAPI-mainApiProject\\OrderServiceAPI\\OrderServiceAppAPI\\obj\\",
+        "outputPath": "C:\\Users\\makar\\Desktop\\OrderServiceAPI(main, Rabbit)\\OrderServiceAPI-mainApiProject\\OrderServiceAPI\\OrderServiceAppAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\makar\\AppData\\Roaming\\NuGet\\NuGet.Config",

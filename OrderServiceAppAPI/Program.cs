@@ -3,7 +3,7 @@ using OrderServiceAppAPI.Data;
 using OrderServiceAppAPI.Repositories;
 using OrderServiceAppAPI.Services;
 using Microsoft.OpenApi.Models;
-using Ocelot.DependencyInjection;
+//using Ocelot.DependencyInjection;
 using MassTransit;
 using OrderServiceAppAPI.Consumers;
 
@@ -31,7 +31,7 @@ builder.Services.AddMassTransit(x =>
 
 builder.Services.AddSwaggerGen(c => 
 {
-    c.SwaggerDoc("v1", new OpenApiInfo{ Title = "Ocelot API Gateway", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo{ Title = "Order Service API", Version = "v1" });
 });
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
@@ -42,9 +42,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 
-builder.Services.AddEndpointsApiExplorer();
+//builder.Services.AddEndpointsApiExplorer();
 
-builder.Services.AddOcelot(builder.Configuration);
+//builder.Services.AddOcelot(builder.Configuration);
 
 var app = builder.Build();
 
@@ -54,15 +54,10 @@ app.UseSwaggerUI(c =>
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Ocelot API Gateway v1");
 });
 
-// Fix in future
-app.MapGet("/index.html", () => Results.Redirect("/swagger"));
-
-app.UseRouting();
-app.UseHttpsRedirection();
-app.UseAuthorization();
+//app.UseRouting();
+//app.UseHttpsRedirection();
+//app.UseAuthorization();
 app.MapControllers();
-
-//await app.UseOcelot();
 
 app.Run();
 

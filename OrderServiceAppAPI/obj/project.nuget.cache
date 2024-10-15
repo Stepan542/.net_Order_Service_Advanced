@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A+rKFwZ1ejQ=",
+  "dgSpecHash": "F5sAdlKoO/o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\makar\\Desktop\\OrderServiceAPI(main)\\OrderServiceAPI-mainApiProject\\OrderServiceAPI\\OrderServiceAppAPI\\OrderServiceAppAPI.csproj",
+  "projectFilePath": "C:\\Users\\makar\\Desktop\\OrderServiceAPI(main, Rabbit)\\OrderServiceAPI-mainApiProject\\OrderServiceAPI\\OrderServiceAppAPI\\OrderServiceAppAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\makar\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\makar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

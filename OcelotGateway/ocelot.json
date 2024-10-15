@@ -1,7 +1,7 @@
 {
     "Routes": [
         {
-            "DownstreamPathTemplate": "/api/order/{everything}",
+            "DownstreamPathTemplate": "/api/order/{id}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts" : [
                 {
@@ -9,7 +9,7 @@
                     "Port": 5265
                 }
             ],
-            "UpstreamPathTemplate": "/order/{everything}",
+            "UpstreamPathTemplate": "/order/{id}",
             "UpstreamHttpMethod": ["GET", "POST", "PUT", "DELETE"]
         }
     ],
