@@ -1,1 +1,1 @@
-В данной конфигурация, проект использует RabbitMQ, и Ocelot Gateway. На данный момент Ocelot не  работает
+В данной конфигурация, проект использует API Order Service, RabbitMQ, и Ocelot Gateway.
